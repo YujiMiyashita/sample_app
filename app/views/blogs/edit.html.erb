@@ -1,6 +1,6 @@
 <h1>Editing Blog</h1>
 
-<%= render 'form', blog: @blog %>
+<%= render 'form' %>
 
-<%= link_to 'Show', @blog %> |
+<%= link_to 'Show', blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>

@@ -5,11 +5,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <!-- CSSファイルを生成するためのタグ -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <!-- JSファイルを生成するためのタグ -->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <!-- ここに各viewが埋め込まれ、1つのHTMLとして出力される -->
     <%= yield %>
   </body>
 </html>
