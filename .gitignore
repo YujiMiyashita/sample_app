@@ -46,3 +46,7 @@ bower.json
 
 # Ignore node_modules
 node_modules/
+
+# sqlite files
+sample_app_development
+sample_app_test
